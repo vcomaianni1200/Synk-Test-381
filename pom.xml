@@ -25,7 +25,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
 
@@ -38,10 +38,10 @@
 
 </project>
 index.html
-&lt;html&gt;
-&lt;head&gt;
-&lt;body&gt;
-&lt;form action="FileUploadServlet" method="post" enctype="multipart/form-data"&gt;
-Select File to Upload:&lt;input type="file" name="fileName"&gt;
-&lt;br&gt;
-&lt;input type="submit" value="Upload"&gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;form action="FileUploadServlet" method="post" enctype="multipart/form-data"&amp;gt;
+Select File to Upload:&amp;lt;input type="file" name="fileName"&amp;gt;
+&amp;lt;br&amp;gt;
+&amp;lt;input type="submit" value="Upload"&amp;gt;
